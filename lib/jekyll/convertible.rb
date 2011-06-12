@@ -106,6 +106,7 @@ module Jekyll
             used << layout
           end
         end
+        layout.content = converter.convert(layout.content
       end
     end
   end
